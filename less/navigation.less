@@ -1,1 +1,27 @@
 // Navigation Styles here
+header {
+    .header();
+
+    @media @phone {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        width:45%;
+        justify-content: space-around;
+        display: flex;
+        @media @phone {
+            width: 100%;
+            margin-top: 10px;
+        }
+        a {
+            justify-content: center;
+            .navtext();
+        }
+    }
+    h1 {
+        @media @phone {
+            margin: 10px 0;
+        }
+    }
+}
